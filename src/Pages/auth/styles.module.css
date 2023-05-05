@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://th.bing.com/th/id/R.09a9e929258754794d496f7c11303c4b?rik=q23wigXL2SFdAw&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container h2{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #006edc;
+}
+.form{
+    width: 600px;
+    border-radius: 10px;
+    background: white;
+}
+.form Form{
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.form Form button{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login_form_forgot{
+    float: right;
+}

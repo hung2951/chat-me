@@ -1,0 +1,62 @@
+.container{
+    height: 70px;
+    background-color: #0091ff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99;
+}
+.header{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+}
+.logo img{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 400px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.nav a{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;   
+}
+.nav a:hover,.login:hover{
+    background-color: #006edc;
+    border-radius: 10px;
+    
+}
+.nav a li{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+.login{
+    width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
